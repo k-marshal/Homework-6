@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF197D3C24366A1B00030178 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF197D3B24366A1B00030178 /* VotingViewController.swift */; };
+		FF197D3E24366CD700030178 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF197D3D24366CD700030178 /* TBViewController.swift */; };
 		FFA2C83F2424FA0F0090B61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2C83E2424FA0F0090B61B /* AppDelegate.swift */; };
 		FFA2C8412424FA0F0090B61B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2C8402424FA0F0090B61B /* SceneDelegate.swift */; };
 		FFA2C8432424FA0F0090B61B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2C8422424FA0F0090B61B /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		FFA2C84B2424FA140090B61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA2C8492424FA140090B61B /* LaunchScreen.storyboard */; };
 		FFA2C8562424FA140090B61B /* Homework_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2C8552424FA140090B61B /* Homework_6Tests.swift */; };
 		FFA2C8612424FA140090B61B /* Homework_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2C8602424FA140090B61B /* Homework_6UITests.swift */; };
+		FFA2C8712424FE280090B61B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2C8702424FE280090B61B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF197D3B24366A1B00030178 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		FF197D3D24366CD700030178 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 		FFA2C83B2424FA0F0090B61B /* Homework 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA2C83E2424FA0F0090B61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFA2C8402424FA0F0090B61B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		FFA2C85C2424FA140090B61B /* Homework 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA2C8602424FA140090B61B /* Homework_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_6UITests.swift; sourceTree = "<group>"; };
 		FFA2C8622424FA140090B61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA2C8702424FE280090B61B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		FFA2C8322424FA0F0090B61B = {
 			isa = PBXGroup;
 			children = (
+				FFA2C8702424FE280090B61B /* ViewController.swift */,
 				FFA2C83D2424FA0F0090B61B /* Homework 6 */,
 				FFA2C8542424FA140090B61B /* Homework 6Tests */,
 				FFA2C85F2424FA140090B61B /* Homework 6UITests */,
@@ -102,6 +109,8 @@
 				FFA2C83E2424FA0F0090B61B /* AppDelegate.swift */,
 				FFA2C8402424FA0F0090B61B /* SceneDelegate.swift */,
 				FFA2C8422424FA0F0090B61B /* ViewController.swift */,
+				FF197D3B24366A1B00030178 /* VotingViewController.swift */,
+				FF197D3D24366CD700030178 /* TBViewController.swift */,
 				FFA2C8442424FA0F0090B61B /* Main.storyboard */,
 				FFA2C8472424FA140090B61B /* Assets.xcassets */,
 				FFA2C8492424FA140090B61B /* LaunchScreen.storyboard */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF197D3E24366CD700030178 /* TBViewController.swift in Sources */,
+				FFA2C8712424FE280090B61B /* ViewController.swift in Sources */,
 				FFA2C8432424FA0F0090B61B /* ViewController.swift in Sources */,
 				FFA2C83F2424FA0F0090B61B /* AppDelegate.swift in Sources */,
 				FFA2C8412424FA0F0090B61B /* SceneDelegate.swift in Sources */,
+				FF197D3C24366A1B00030178 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
